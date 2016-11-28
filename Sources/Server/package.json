@@ -1,0 +1,14 @@
+{
+  "name"         : "Template-server-application",
+  "version"      : "0.0.1",
+  "private"      : true,
+  "description"  : "Template application.",
+  "main"         : "server.js",
+  "bin" : {
+    "launch-server" : "server.js"
+  },
+  "author"       : "HATON Mathieu",
+  "dependencies" : {
+    "express"    : "~4.7.2"
+  }
+}
