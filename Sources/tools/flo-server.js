@@ -3,7 +3,8 @@ var flo=require('fb-flo'),
 	fs = require('fs'),
 	path = require('path');
 
-var dir = path.resolve(__dirname, '/public');
+
+var dir = path.resolve(__dirname, '../public');
 var server = flo(dir, {glob : ['**/*.js', '**/*css']}, resolver);
 
 server.once('ready', () => {

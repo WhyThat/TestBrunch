@@ -1,7 +1,6 @@
 (function(){
 	"use strict";
-	var toto = "";
-	titi = 2;
-	console.log(titi);
-
+	var toto = "de25";
+	var titi = 2;
+	console.log("test");
 })();
