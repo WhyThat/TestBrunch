@@ -1,6 +1,8 @@
 (function(){
 	"use strict";
-	var toto = "de25";
-	var titi = 2;
-	console.log("test");
+	var angular = require('angular');
+
+	angular.module('app', []).controller('test',($scope) => {
+		$scope.test = "Toto";
+	});
 })();
